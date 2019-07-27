@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -18,12 +22,23 @@
 .bar {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: 2px solid rgb(143, 86, 86);
 }
 
 .banner {
     /*position: absolute;*/
+      
+    min-height: 585px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(236, 171, 31);
     
-    background-color: dodgerblue;
+    
+    background: rgba(0, 0, 0, 0.5) url(gory.jpg) no-repeat center 55% / cover padding-box border-box;
+    /*background-color: dodgerblue;*/
     
 }
 
@@ -112,4 +127,26 @@ ul.menu {
 span {
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner h1 {
+    font-size: 100px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(236, 171, 31);
+    line-height: 0.5;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.banner h2 {
+    font-size: 36   px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    line-height: 0.5;
+    padding-top: 20px;
+    margin-top: 0px;
 }

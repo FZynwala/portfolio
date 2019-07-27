@@ -1,3 +1,8 @@
 
+.icon-linkedin-circled-1:before { content: '\e800'; } /* '' */
+.icon-twitter-circled:before { content: '\e801'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-laptop:before { content: '\f109'; } /* '' */
-.icon-file-code:before { content: '\f1c9'; } /* '' */
+.icon-facebook-circled:before { content: '\f30d'; } /* '' */
+.icon-linkedin-circled:before { content: '\f319'; } /* '' */
