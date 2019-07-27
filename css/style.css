@@ -1,3 +1,109 @@
-h1 {
-    color: red;
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    min-height: 1000px;
+    justify-content: space-between;
+    border: 2px solid black;
+    
+}
+
+.cont {
+    /*position: relative;*/
+    min-width: 100vh;
+    
+    
+}
+
+.bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner {
+    /*position: absolute;*/
+    
+    
+    background-color: dodgerblue;
+    
+}
+
+.buttons {
+    /*position: absolute;*/
+    
+    
+    background-color: seagreen;
+}
+
+.aboutme {
+    /*position: absolute;*/
+    
+    background-color: darkorange;
+   
+}
+
+.skills {
+    /*position: absolute;*/
+    
+    background-color: brown;
+    
+}
+
+.portfol {
+    /*position: absolute;*/
+    
+    background-color: burlywood;
+    
+}
+
+/*
+.skills div.abc {
+    background-color: aqua;
+    width: 400px;
+    height: 100px;
+    color: white;
+    display: inline-block;
+}
+
+.skills div.abcd {
+    background-color: bisque;
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    
+}
+*/
+.contactus {
+    /*position: absolute;*/
+    
+    background-color: rgb(21, 160, 44);
+    
+}
+
+.foreground {
+    display: flex;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    font-size: 18px;
+    min-height: 40px;
+    line-height: 200%;
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid rgb(89, 80, 216);
+}
+
+.menu > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
 }
