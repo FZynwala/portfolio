@@ -7,7 +7,8 @@ body {
     flex-direction: column;
     min-width: 100vh;
     min-height: 1000px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    /*align-items: center;*/
     border: 2px solid black;
     
 }
@@ -23,7 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
     border: 2px solid rgb(143, 86, 86);
 }
 
@@ -32,9 +33,10 @@ body {
       
     min-height: 585px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin: 0px;
     text-align: center;
     color: rgb(236, 171, 31);
+    
     
     
     background: rgba(0, 0, 0, 0.5) url(gory.jpg) no-repeat center 55% / cover padding-box border-box;
@@ -44,9 +46,28 @@ body {
 
 .buttons {
     /*position: absolute;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400; 
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #222222;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid rgb(143, 86, 86);
+    /*max-width: 800px;*/
+    justify-content: center;
     
     
-    background-color: seagreen;
+    /*margin-left: 20%;*/
+    padding: 0px;
+    
+   /* background-color: seagreen;*/
 }
 
 .aboutme {
@@ -149,4 +170,44 @@ span {
     line-height: 0.5;
     padding-top: 20px;
     margin-top: 0px;
+}
+
+.buttons h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400; 
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin-top: 25px;
+    padding-top: 8px;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: center;
+}
+
+.button {
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    justify-self: end;
+    align-self: center;
+}
+
+.button h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
