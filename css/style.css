@@ -88,24 +88,7 @@ body {
     
 }
 
-/*
-.skills div.abc {
-    background-color: aqua;
-    width: 400px;
-    height: 100px;
-    color: white;
-    display: inline-block;
-}
 
-.skills div.abcd {
-    background-color: bisque;
-    width: 400px;
-    height: 80px;
-    display: inline-block;
-    position: absolute;
-    
-}
-*/
 .contactus {
     /*position: absolute;*/
     
@@ -210,13 +193,11 @@ span {
 }
 
 .background {
-    background-color: rgb(68, 221, 48);
+    background-color: #FAFAFF;
     max-width: 980px;
     min-height: 430px;
     border: 2px solid rgb(247, 244, 86);
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    
     
     
     
@@ -225,20 +206,21 @@ span {
 
 .foreground {
     border: 2px solid rgb(204, 224, 22);
-    /*position: absolute;*/
-    /*top: 25%;*/
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    right: 4%;
+    
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1241px;
+    min-height: 280px;
     background: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
-    height: 40%;
-    /*margin-left: auto;
-    margin-right: auto;*/
+    
+    
 
 }
 
@@ -273,7 +255,9 @@ ul.shortinfo {
     
     border-left: 3px dotted #FFC53D;
     margin-left: 5px;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    
 }
 
 .list {
@@ -281,28 +265,22 @@ ul.shortinfo {
     /*border: 2px solid rgb(175, 19, 149);*/
     
     margin-left: 0;
-    padding-right: 5px;
+    padding-right: 10px;
+
     
 }
 .image {
     /*border: 2px solid rgb(89, 80, 216);*/
-    
+    margin-right: 2px;
 }
 
 .text p {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
+    text-align: justify;
 
     color: #222222;
 }
 
-.gray {
-    width: 500px;
-    height: 200px;
-    background-color: black;
-    position: absolute;
-    top: 800px;
-    right: 0;
-    
-}
+
