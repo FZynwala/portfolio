@@ -75,9 +75,9 @@ body {
 }
 
 .skills {
-    /*position: absolute;*/
+    position: relative;
     
-    background-color: brown;
+    /*background-color: brown;*/
     
 }
 
@@ -198,10 +198,27 @@ span {
     min-height: 430px;
     border: 2px solid rgb(247, 244, 86);
     
-    
-    
-    
+}
 
+.background h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    
+    letter-spacing: 0.02em;
+
+    color: #222222;
+}
+
+.skills .background {
+    margin-left: auto;
+    margin-right: 0;
+    background-color: #FAFAFF;
+    max-width: 980px;
+    min-height: 430px;
+    border: 2px solid rgb(247, 244, 86);
 }
 
 .foreground {
@@ -220,8 +237,15 @@ span {
     background: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
     
-    
+}
 
+.skills .foreground {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    right: 4%;
+    background: #FFFFFF;
+    justify-content: space-around;
 }
 
 img {
@@ -283,4 +307,42 @@ ul.shortinfo {
     color: #222222;
 }
 
+.skill h2 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
 
+    margin: 0;
+    padding: 0;
+
+    color: #FFC53D;
+}
+
+.skill h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+
+    color: #000000;
+}
+
+.skill {
+    margin: 0;
+    padding: 0;
+}
+
+.dotts {
+    width: 0;
+    height: 200px;
+    border-left: 3px dotted #FFC53D;
+    
+}
