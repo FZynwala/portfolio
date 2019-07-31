@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     padding-bottom: 0px;
     margin: 0px;
-    border: 2px solid rgb(143, 86, 86);
+    /*border: 2px solid rgb(143, 86, 86);*/
 }
 
 .banner {
@@ -62,7 +62,7 @@ body {
     
     margin:0px;
     padding: 0px;
-    border: 2px solid rgb(143, 86, 86);
+    /*border: 2px solid rgb(143, 86, 86);*/
    /* background-color: seagreen;*/
 }
 
@@ -81,14 +81,184 @@ body {
     
 }
 
+/*******PORTFOL******/
+
 .portfol {
     /*position: absolute;*/
-    
-    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    min-height: 550px;
+
+    border: 2px solid rgb(89, 80, 216);
     
 }
 
 
+.box0 {
+    width: 100%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #222222;
+}
+
+.box1 {
+    
+    min-height: 250px;
+    background: rgba(0, 0, 0, 0.5) url(wooden.jpg) no-repeat center / cover padding-box border-box;
+}
+
+.box1 h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    
+    letter-spacing: 0.02em;
+
+    position: relative;
+    top: -6px;
+    left: 7%;
+    margin-bottom: 0;
+    padding: 0;
+
+    color: #FFFFFF;
+}
+
+.box1 p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    position: relative;
+    left: 7%;
+    margin-top: 0;
+    max-width: 350px;
+}
+
+.box1 .button {
+    position: relative;
+    top: 50px;
+    left: 5px;
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border-radius: 15px;
+    
+}
+
+.box1 .view {
+    position: relative;
+    top:10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.box2 {
+       
+    
+}
+
+.box3 {
+    flex-grow: 1;
+}
+
+
+.box4 {
+    background-color: rgb(48, 128, 148);
+}
+
+.box5 {
+    min-height: 250px;
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.5) url(led.jpg) no-repeat center / cover padding-box border-box;
+}
+
+.box5 h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    position: relative;
+    top: -6px;
+    left: 7%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.box5 p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    position: relative;
+    left: 7%;
+    margin-top: 0;
+    max-width: 350px;
+}
+
+.box5 .button {
+    position: relative;
+    top: 30px;
+    left: 5%;
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border-radius: 15px;
+    
+}
+
+.box5 .view {
+    position: relative;
+    top:10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*****************************/
 .contactus {
     /*position: absolute;*/
     
@@ -107,7 +277,7 @@ ul.menu {
     line-height: 200%;
     display: flex;
     justify-content: flex-end;
-    border: 2px solid rgb(89, 80, 216);
+    /*border: 2px solid rgb(89, 80, 216);*/
 }
 
 .menu > li {
@@ -196,7 +366,7 @@ span {
     background-color: #FAFAFF;
     max-width: 980px;
     min-height: 430px;
-    border: 2px solid rgb(247, 244, 86);
+    /*border: 2px solid rgb(247, 244, 86);*/
     
 }
 
@@ -218,7 +388,7 @@ span {
     background-color: #FAFAFF;
     max-width: 980px;
     min-height: 430px;
-    border: 2px solid rgb(247, 244, 86);
+    /*border: 2px solid rgb(247, 244, 86);*/
 }
 
 .foreground {
@@ -248,7 +418,7 @@ span {
     justify-content: space-around;
 }
 
-img {
+.profilowe {
     border-radius: 180px;
     padding: 10px;
     width: 10%;
