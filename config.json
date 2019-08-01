@@ -47,6 +47,12 @@
       "css": "laptop",
       "code": 61705,
       "src": "fontawesome"
+    },
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59394,
+      "src": "fontawesome"
     }
   ]
 }
