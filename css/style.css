@@ -46,6 +46,12 @@ body {
     
 }
 
+.iconbanner {
+    position: absolute;
+    top: 42%;
+    left: 45%;
+}
+
 .buttons {
     /*position: absolute;*/
     
@@ -235,7 +241,9 @@ body {
 
 .box5 .view {
     position: relative;
-    top:10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding-top: 0;
     
     font-weight: bold;
     font-size: 18px;
@@ -281,7 +289,7 @@ h1.contactheader {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
 
     height: 621px;
-    min-width: 457px;
+    min-width: 35%;
     position: relative;
 }
 
@@ -295,8 +303,8 @@ h1.contactheader {
 
     margin:0;
 
-    width: 300px;
-    height: 106px;
+    max-width: 300px;
+    min-height: 106px;
     position: absolute;
     left: 52px;
     top: 150px;
@@ -308,14 +316,14 @@ h1.contactheader {
     font-size: 18px;
     position: absolute;
     left: 52px;
-    bottom: 150px;
+    bottom: 165px;
      
  }
 
  p.address {
     position: absolute;
     left: 52px;
-    top: 480px;
+    top: 470px;
 
     font-family: Ubuntu;
     font-weight: normal;
@@ -330,12 +338,25 @@ h1.contactheader {
     font-weight: bold;
  }
 
+ .polygon {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: 90%;
+    top: 2%;
+    
+    background: #FF9A3D;
+    transform: rotate(45deg);
+    /*border: 2px solid rgb(89, 80, 216);*/
+    z-index: 1;
+ }
+
 .form {
     background: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
 
     height: 621px;
-    min-width: 732px;
+    min-width: 52%;
 }
 
 .form h1 {
@@ -354,7 +375,7 @@ h1.contactheader {
 }
 
 input[type=text] {
-    width: 639px;
+    width: 80%;
     background-color: #FAFAFF;
     color: #666666;
     border-radius: 15px;
@@ -397,12 +418,15 @@ input[type=submit] {
     text-align: center;
 
     position: absolute;
-    right: 88px;
+    right: 10%;
    
 }
 
 input[type=submit]:hover {
-    background-color: #FFC53D;
+    background: #E1E1E1;
+    border: 1px solid #FFC53D;
+    color: #FFC53D;
+    box-sizing: border-box;
 }
 
 
@@ -484,6 +508,14 @@ span {
     margin-left: 20px;
     margin-bottom: 10px;
     
+}
+
+.button:hover {
+    background: #E1E1E1;
+    border: 1px solid #FFC53D;
+    color: #FFC53D;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .button h3 {
