@@ -162,6 +162,7 @@ a {
     margin-bottom: 10px;
     border: 1px solid #FFC53D;
     box-sizing: border-box;
+    transition: transform .03s ease-in-out;
 }
 
 .button:hover {
@@ -170,6 +171,10 @@ a {
     color: #FFC53D;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.9);
 }
 
 .button-text {
@@ -196,6 +201,7 @@ a {
     text-decoration: none;
     color: #FFC53D;
 }
+
 
 /****************************************/
 
@@ -371,7 +377,7 @@ ul.shortinfo {
 .c__header3 {
     position: absolute;
     top: 75%;
-    right: 14%;
+    right: 11%;
 }
 
 .b__vector {
@@ -493,6 +499,7 @@ ul.shortinfo {
     
     border: 1px solid #FFC53D;
     box-sizing: border-box;
+    transition: transform .03s ease-in-out;
 }
 
 .button-view-box1:hover {
@@ -501,6 +508,10 @@ ul.shortinfo {
     color: #FFC53D;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+.button-view-box1:active {
+    transform: scale(0.9);
 }
 
 .button-view-text {
@@ -570,6 +581,7 @@ ul.shortinfo {
     border-radius: 15px;
     border: 1px solid #FFC53D;
     box-sizing: border-box;
+    transition: transform .03s ease-in-out;
 }
 
 .button-view-box5:hover {
@@ -578,6 +590,10 @@ ul.shortinfo {
     color: #FFC53D;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+.button-view-box5:active {
+    transform: scale(0.9);
 }
 
 .break {
