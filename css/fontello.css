@@ -55,11 +55,11 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-linkedin-circled-1:before { content: '\e800'; } /* '' */
+.icon-linkedin-circled-1:before { content: '\e800'; text-decoration-line: none; } /* '' */
 .icon-twitter-circled:before { content: '\e801'; } /* '' */
 .icon-mail:before { content: '\e802'; font-size: 40px; color: white; position: absolute; left: 10%; top: 10%; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-laptop:before { content: '\f109'; } /* '' */
 .icon-facebook-circled:before { content: '\f30d'; } /* '' */
-.icon-linkedin-circled:before { content: '\f319'; } /* '' */
+.icon-linkedin-circled:before { content: '\f319'; text-decoration-line: none; } /* '' */
