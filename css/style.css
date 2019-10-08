@@ -781,7 +781,7 @@ input[type=submit] {
 
     position: absolute;
     right: 10%;
-   
+    transition: transform .03s ease-in-out;
 }
 
 input[type=submit]:hover {
@@ -790,6 +790,11 @@ input[type=submit]:hover {
     color: #FFC53D;
     box-sizing: border-box;
 }
+
+input[type=submit]:active {
+    transform: scale(0.9);
+}
+
 
 /*******************************************************************/
 
