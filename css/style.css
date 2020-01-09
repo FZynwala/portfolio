@@ -10,9 +10,7 @@ body {
     overflow-x: hidden;
 }
 
-.cont {
-    min-width: 100%;
-}
+
 
 /*******BAR SECTION********/
 
@@ -70,16 +68,6 @@ body {
 
 .menu-mobile-off {
     display: none;
-    position: fixed;
-    top: 50px;
-    list-style-type: none;
-    text-align: center;
-    width: 100%;
-    opacity: 0.8;
-    padding: 0;
-    margin: 0;
-    
-    background-color: #0170ba;
 }
 
 .menu-mobile-on {
@@ -550,128 +538,10 @@ body {
 }
 
 @media only screen and (max-width: 680px) {
-    .cont.portfol {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .box {
-        width: 100%;
-    }
-
-    .box.box1 {
-        width: 100%;
-    }
-
-    .box.box2 {
-        width: 100%;
-        height: auto;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .box.box3 {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-    }
-
-    .box.box4 {
-        width: 100%;
-        height: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding: 0;
-    }
-
-    .box.box5 {
-        width: 100%;
-        height: auto;
-        margin-top: 0px;
-        padding: 0px;
-    }
-
-    .skills.foreground {
-        flex-direction: column;
-    }
-
-    .dotts__right {
-        width: auto;
-        height: 0;
-        border-left: 3px dotted #FFC53D;
-       /* position: absolute;
-        right: 33%;   */
-    }
     
-    .dotts__left {
-        width: auto;
-        height: 0;
-        border-left: 3px dotted #FFC53D;
-        /*position: absolute;
-        left: 33%;*/
-    }
 
 }
 
 @media only screen and (min-width: 680px) and (max-width: 1100px) {
-    .cont.portfol {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .box {
-        width: 100%;
-        height: auto;
-    }
-
-    .box.box1 {
-        width: 50%;
-    }
-
-    .box.box2 {
-        width: 50%;
-        height: auto;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .box.box3 {
-        width: 100%;
-        height: 270px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .box.box4 {
-        width: 50%;
-        height: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding: 0;
-    }
-
-    .box.box5 {
-        width: 50%;
-        height: auto;
-        margin-top: 0px;
-        padding: 0px;
-    }
-
-    .foreground {
-        position: absolute;
-        top: 20%;
-        left: 4%;
-        right: 4%;
-        
-        display: flex;
-        flex-direction: column;
-        /*justify-content: space-between;
-        align-items: center;
-        max-width: 1241px;
-        min-height: 280px;
-        background: #FFFFFF;
-        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
-        */
-    }
+    
 }
