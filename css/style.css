@@ -461,7 +461,7 @@ body {
 
 /**********************************************************/
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 380px) {
 
     .menu-icon-mobile {
         display: block;
