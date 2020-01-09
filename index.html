@@ -9,38 +9,72 @@
     <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Ubuntu&display=swap&subset=latin-ext" rel="stylesheet">
+    
 </head>
 <body>
     
         <header>
             <nav>
-                <div class="cont bar" id="bar" >
+                <div class="bar-container" id="bar" >
                     <ul class="menu">
                         <li>{</li>
-                        <li class="menu-item"><a href="#aboutme">About me</a></li>
+                        <li class="menu-item"><a href="#experience">Experience</a></li>
                         <li class="menu-item"><a href="#skills">Skills</a></li>
-                        <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
-                        <li class="menu-item"><a href="#contact">Contact</a></li>
+                        <li class="menu-item"><a href="#projects">Projects</a></li>
+                        <li class="menu-item"><a href="#footer">Contact</a></li>
                         <li>}</li>
                     </ul>
+                    <div class="menu-icon-mobile">
+                        <button class="menu-button"><i class="icon-menu"></i></button>
+                    </div>
                 </div>
+                <ol class="menu-mobile-off" id="menu-mobile">
+                    <a href="#experience"><li>Experience</li></a>
+                    <a href="#skills"><li>Skills</li></a>
+                    <a href="#projects"><li>Projects</li></a>
+                    <a href="#footer"><li>Contact</li></a>
+                </ol>
             </nav> 
             <div class="banner-header">
-                <span class="welcame">Welcome to my portfolio</span>
+                <div>
+                    Welcome <span>to my portfolio</span>
+                </div>
             </div>
             <div class="banner">
                 <div class="avatar"></div>
                 <div class="avatar-body">
-                    { web developer }
+                    { Filip Zynwala }
                 </div>
             </div>
         </header>
         
         <main>
-            <article>
-                
+            <article id="experience">
+                <div class="experience-header">
+                    <span class="experience-header-text">Experience:</span>
+                </div>
+                <div class="experience-container">
+                    <div class="university">
+                        <dic class="university-logo-box">
+                            <img class="university-logo" src="pwr-logo.svg" alt="Wrocław University of Technology logo" />
+                        </dic>
+                        <div class="university-text">Bachelor of Electronic and Telecommunications</div>
+                        <div class="university-text">Master of Electronic and Telecommunications</div>
+                    </div>
+                    <div class="coderscrew">
+                        <div class="coderscrew-logo-box">
+                            <img class="coderscrew-logo" src="coderscrew.svg" alt="CodersCrew logo" />
+                        </div>
+                        <div class="coderscrew-text">
+                            Certyfikat ukończenia 4 edycji CodersCamp
+                        </div>
+                        <div class="coderscrew-text">
+                            Mentor na 5 edycji CodersCamp
+                        </div>
+                    </div>
+                </div>
             </article>
 
             <article id="skills">
@@ -54,87 +88,55 @@
                     <img class="hexagon node" src="node.svg" alt="nodeJS">
                     <div class="break"></div>
                     <img class="hexagon react" src="react.svg" alt="React">
+                    <div class="break mob"></div>
                     <img class="hexagon redux" src="redux.svg" alt="Redux">
                     <img class="hexagon react-router" src="react-router.svg" alt="React-Router">
                     <img class="hexagon express" src="express.svg" alt="ExpressJS">
                     <img class="hexagon mongo" src="MongoDB.svg" alt="MongoDB">
                     <div class="break"></div>
                     <img class="hexagon semantic" src="semanticUI.svg" alt="SemanticUI">
+                    <div class="break mob"></div>
                     <img class="hexagon git" src="git.svg" alt="Git">
                     <img class="hexagon semantic" src="semanticUI.svg" alt="SemanticUI">
                     <img class="hexagon semantic" src="semanticUI.svg" alt="SemanticUI">
                 </div>
             </article>
-
-            <article>
-                <div class="cont portfol" id="portfolio" >
-                    <div class="box box0">Portfolio</div>
-                    <div class="box box1">
-                        <h1>Designe</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" class="button-view-link">
-                            <div class="button-view-box1">
-                                <h3 class="button-view-text">View</h3>
-                            </div>
-                        </a>
+            <article id="projects">
+                <div class="projects-header">My projects:</div>
+               <div class="projects-container">
+                    <div class="project">
+                        <h3>zaka-monitor</h3>
+                        <p>
+                            System of measuring temperatures and humidity from many places and presenting results on the web app. The system consist of two parts:
+                            <ul>
+                                <li>presentation of the measurement result - the web app described <a href="https://github.com/FZynwala/zaka-monitor">here</a></li>
+                                <li>hardware part: network of wireless sensors measuring temperature and humidity described <a href="https://github.com/FZynwala/zaka-monitor---sensor">here</a></li>
+                            </ul>
+                        </p>
+                        <img class="project-zm-chart" src="zm-main.svg" alt="screen from web app" />
+                        <img class="project-zm-chart" src="zm-chart.svg" alt="screen from web app" />
+                        <a href="https://fzynwala.github.io/zaka-monitor/#/" target="_blank"><button class="project-button-demo">Demo</button></a>
                     </div>
-                    <img class="box box2" src="blurred.jpg" alt="tlo" />
-                    <img class="box box3" src="wallpaper.jpg" alt="tlo"/>
-                    <img class="box box4" src="zarowka.jpg" alt="tlo" />
-                    <div class="box box5">
-                        <h1>Designe project</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a class="button-view-link" href="#">
-                            <div class="button-view-box5">
-                                <h3 class="button-view-text">View</h3>
-                            </div>
-                        </a>
+                    <div class="project">
+                        <h3>Todo List</h3>
+                        <p>
+                                The app allows you to save tasks, mark them as completed / not completed, edit the content of the task and permanently delete the task.
+                        </p>
+                        <img class="project-zm-chart" src="todo-login.svg" alt="screen from web app" />
+                        <img class="project-zm-chart" src="todo-main.svg" alt="screen from web app" />
+                        <a href="https://fzynwala.github.io/ToDo-List---React-App/#/" target="_blank"><button class="project-button-demo">Demo</button></a>
                     </div>
-                </div>
+               </div>
             </article>
 
         </main>
-        
-        <footer>
-            <div class="cont contactus" id="contact" >
-                <header>
-                    <h1 class="contactus-header">Contact us</h1>
-                </header>
-                <div class="orange">
-                    <i class="icon-mail"></i>
-                    <div class="polygon"></div>
-                    <p> Please describe your question. Send me a message and I will answer you as soon as possible.</p>
-                    <div class="icons">
-                        <i class="icon-linkedin-circled-1"></i>
-                        <i class="icon-twitter"></i>
-                        <i class="icon-github-circled"></i>
-                        <i class="icon-facebook-circled"></i>
-                    </div>
-                    <p class="address">
-                        <span>
-                            Designer<br>
-                            Poland, Wrocław<br>
-                        </span>
-                        ul. Kukurydziana 12/3 51-663<br>
-                        +48 123-456-789<br>
-                        designer@dev.pl
-                    </p>
-                </div>
-                <div class="form">
-                    <header>
-                        <h1>Let's start!</h1>
-                    </header>
-                    <form action="" method="POST">
-                        <input type="text" name="imie" placeholder="Name">
-                        <input type="text" name="imie" placeholder="Email">
-                        <input type="text" name="imie" placeholder="Topic">
-                        <input class="message" type="text" name="imie" placeholder="Message">
-                        <input type="submit" value="Send">
-                    </form>
-                </div>
+        <footer id="footer">
+            <div class="footer">
+                <a href="https://www.linkedin.com/in/filip-zynwala-7a9733162/" target="blank"><i class="icon-linkedin"></i></a>
+                <a href="https://github.com/FZynwala" target="blank"><i class="icon-github-circled-alt2"></i></a>
+                <a href="https://www.facebook.com/filip.zynwala" target="blank"><i class="icon-facebook"></i></a>
             </div>
-
         </footer>
-    
+        <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

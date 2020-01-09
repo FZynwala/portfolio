@@ -1,9 +1,6 @@
 
-.icon-linkedin-circled-1:before { content: '\e800'; } /* '' */
-.icon-twitter-circled:before { content: '\e801'; } /* '' */
-.icon-mail:before { content: '\e802'; } /* '' */
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-github-circled:before { content: '\f09b'; } /* '' */
-.icon-laptop:before { content: '\f109'; } /* '' */
-.icon-facebook-circled:before { content: '\f30d'; } /* '' */
-.icon-linkedin-circled:before { content: '\f319'; } /* '' */
+.icon-menu:before { content: '\e800'; } /* '' */
+.icon-github-circled-alt2:before { content: '\f056'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-linkedin:before { content: '\f31a'; } /* '' */
+.icon-linkedin-rect:before { content: '\f31b'; } /* '' */

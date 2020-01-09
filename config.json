@@ -7,52 +7,34 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "ce1d525f3f31024c6a6b38f5e9a88953",
-      "css": "facebook-circled",
-      "code": 62221,
+      "uid": "e9e96618b0f44170930f9b179237c76e",
+      "css": "linkedin-rect",
+      "code": 62235,
+      "src": "brandico"
+    },
+    {
+      "uid": "542e3f055aaa4ddfb9ab3e00397db47f",
+      "css": "linkedin",
+      "code": 62234,
+      "src": "brandico"
+    },
+    {
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "code": 62220,
       "src": "entypo"
     },
     {
-      "uid": "0f6a2573a7b6df911ed199bb63717e27",
-      "css": "github-circled",
-      "code": 61595,
-      "src": "fontawesome"
+      "uid": "8669af50382b53c48b9b803692828dd0",
+      "css": "github-circled-alt2",
+      "code": 61526,
+      "src": "mfglabs"
     },
     {
-      "uid": "21adad41ffebf469b2370d26bcb8a3c4",
-      "css": "linkedin-circled",
-      "code": 62233,
-      "src": "entypo"
-    },
-    {
-      "uid": "b2178b8fca35bac9e4bfcea4a4c05a92",
-      "css": "linkedin-circled-1",
+      "uid": "jh3jpcb1t1bcm80gidkadilh080aq79h",
+      "css": "menu",
       "code": 59392,
       "src": "typicons"
-    },
-    {
-      "uid": "627abcdb627cb1789e009c08e2678ef9",
-      "css": "twitter",
-      "code": 61593,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "b523a5bcf8d08725038873d89bb003fd",
-      "css": "twitter-circled",
-      "code": 59393,
-      "src": "typicons"
-    },
-    {
-      "uid": "500fc1f109021e4b1de4deda2f7ed399",
-      "css": "laptop",
-      "code": 61705,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "bf882b30900da12fca090d9796bc3030",
-      "css": "mail",
-      "code": 59394,
-      "src": "fontawesome"
     }
   ]
 }

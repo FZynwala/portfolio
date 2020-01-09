@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?32395658');
-  src: url('../font/fontello.eot?32395658#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?32395658') format('woff2'),
-       url('../font/fontello.woff?32395658') format('woff'),
-       url('../font/fontello.ttf?32395658') format('truetype'),
-       url('../font/fontello.svg?32395658#fontello') format('svg');
+  src: url('../font/fontello.eot?56511489');
+  src: url('../font/fontello.eot?56511489#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?56511489') format('woff2'),
+       url('../font/fontello.woff?56511489') format('woff'),
+       url('../font/fontello.ttf?56511489') format('truetype'),
+       url('../font/fontello.svg?56511489#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?32395658#fontello') format('svg');
+    src: url('../font/fontello.svg?56511489#fontello') format('svg');
   }
 }
 */
@@ -55,11 +55,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-linkedin-circled-1:before { content: '\e800'; text-decoration-line: none; } /* '' */
-.icon-twitter-circled:before { content: '\e801'; } /* '' */
-.icon-mail:before { content: '\e802'; font-size: 40px; color: white; position: absolute; left: 10%; top: 10%; } /* '' */
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-github-circled:before { content: '\f09b'; } /* '' */
-.icon-laptop:before { content: '\f109'; } /* '' */
-.icon-facebook-circled:before { content: '\f30d'; } /* '' */
-.icon-linkedin-circled:before { content: '\f319'; text-decoration-line: none; } /* '' */
+.icon-menu:before { content: '\e800'; font-size: 20px; } /* '' */
+.icon-github-circled-alt2:before { content: '\f056'; font-size: 25px; } /* '' */
+.icon-facebook:before { content: '\f30c'; font-size: 25px; } /* '' */
+.icon-linkedin:before { content: '\f31a'; font-size: 25px; } /* '' */
+.icon-linkedin-rect:before { content: '\f31b'; font-size: 25px; } /* '' */

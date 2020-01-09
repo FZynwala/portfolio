@@ -1,0 +1,10 @@
+html5
+css3
+js
+React
+Redux
+NodeJS
+Express
+MongoDB
+React-Router
+SemanticUI
