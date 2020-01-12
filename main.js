@@ -15,16 +15,16 @@ $menuButton.addEventListener('click', () => {
 jQuery(function($) {
     $.scrollTo(0);
 
-    $('#link-experience').click(function() { $.scrollTo($('#experience'), 600); });
-    $('#link-skills').click(function() { $.scrollTo($('#skills'), 600); });
-    $('#link-projects').click(function() { $.scrollTo($('#projects'), 600); });
-    $('#link-footer').click(function() { $.scrollTo($('#footer'), 600); });
-    $('#arrow-up').click(function() { $.scrollTo($('body'), 600); });
+    $('#link-experience').click(function() { $.scrollTo($('#experience'), 800); });
+    $('#link-skills').click(function() { $.scrollTo($('#skills'), 800); });
+    $('#link-projects').click(function() { $.scrollTo($('#projects'), 800); });
+    $('#link-footer').click(function() { $.scrollTo($('#footer'), 800); });
+    $('#arrow-up').click(function() { $.scrollTo($('body'), 800); });
 
-    $('#link-experience-mob').click(function() { $.scrollTo($('#experience'), 600); });
-    $('#link-skills-mob').click(function() { $.scrollTo($('#skills'), 600); });
-    $('#link-projects-mob').click(function() { $.scrollTo($('#projects'), 600); });
-    $('#link-footer-mob').click(function() { $.scrollTo($('#footer'), 600); });
+    $('#link-experience-mob').click(function() { $.scrollTo($('#experience'), 800); });
+    $('#link-skills-mob').click(function() { $.scrollTo($('#skills'), 800); });
+    $('#link-projects-mob').click(function() { $.scrollTo($('#projects'), 800); });
+    $('#link-footer-mob').click(function() { $.scrollTo($('#footer'), 800); });
 });
 
 $(window).scroll(function()
