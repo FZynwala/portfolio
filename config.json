@@ -35,6 +35,12 @@
       "css": "menu",
       "code": 59392,
       "src": "typicons"
+    },
+    {
+      "uid": "98edd99a41fbdc5633151cd21b7e56f8",
+      "css": "up",
+      "code": 59393,
+      "src": "iconic"
     }
   ]
 }

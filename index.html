@@ -11,7 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Ubuntu&display=swap&subset=latin-ext" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
     
+
 </head>
 <body>
     
@@ -20,10 +23,10 @@
                 <div class="bar-container" id="bar" >
                     <ul class="menu">
                         <li>{</li>
-                        <li class="menu-item"><a href="#experience">Experience</a></li>
-                        <li class="menu-item"><a href="#skills">Skills</a></li>
-                        <li class="menu-item"><a href="#projects">Projects</a></li>
-                        <li class="menu-item"><a href="#footer">Contact</a></li>
+                        <li class="menu-item"><a id="link-experience" href="#">Experience</a></li>
+                        <li class="menu-item"><a id="link-skills" href="#">Skills</a></li>
+                        <li class="menu-item"><a id="link-projects" href="#">Projects</a></li>
+                        <li class="menu-item"><a id="link-footer" href="#">Contact</a></li>
                         <li>}</li>
                     </ul>
                     <div class="menu-icon-mobile">
@@ -31,10 +34,10 @@
                     </div>
                 </div>
                 <ol class="menu-mobile-off" id="menu-mobile">
-                    <a href="#experience"><li>Experience</li></a>
-                    <a href="#skills"><li>Skills</li></a>
-                    <a href="#projects"><li>Projects</li></a>
-                    <a href="#footer"><li>Contact</li></a>
+                    <a id="link-experience-mob" href="#"><li>Experience</li></a>
+                    <a id="link-skills-mob" href="#"><li>Skills</li></a>
+                    <a id="link-projects-mob" href="#"><li>Projects</li></a>
+                    <a id="link-footer-mob" href="#"><li>Contact</li></a>
                 </ol>
             </nav> 
             <div class="banner-header">
@@ -129,7 +132,9 @@
                     </div>
                </div>
             </article>
-
+            <div class="arrow-box">
+                <a id="arrow-up" href="#"><i class="icon-up"></i></a>
+            </div>
         </main>
         <footer id="footer">
             <div class="footer">

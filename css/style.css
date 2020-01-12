@@ -484,6 +484,25 @@ body {
     transform: scale(1.1);
 }
 
+#arrow-up {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 9px;
+    bottom: 9px;
+    color: white;
+    border-radius: 3px;
+    background-color: #333;
+    opacity: 0.8;
+}
+
+.arrow-box {
+    display: none;
+}
+
 /**********************************************************/
 
 @media only screen and (max-width: 380px) {
@@ -577,7 +596,7 @@ body {
     .bar-container {
         flex-direction: column;
     }
-    
+
     .banner {
         background: rgba(0, 0, 0, 0.5) url(developing.jpg) no-repeat center / cover padding-box border-box;
     }
