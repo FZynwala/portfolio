@@ -142,9 +142,12 @@ body {
     justify-content: center;
     align-items: center;
     color: #0170ba;
+    text-align: center;
+    line-height: 120%;
     font-size: 70px;
     font-weight: bold;
-    margin-top: 3%;
+    margin-top: 50px;
+    margin-bottom: 10px;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -154,6 +157,14 @@ body {
     width: 188px;
     background:  #effefe url(profilowe.jpg) no-repeat center / contain padding-box border-box;
     border: 6px solid #0170ba;
+    animation-name: loading-avatar;
+    animation-duration: 3s;
+}
+
+@keyframes loading-avatar {
+    0% {margin-right: 120%;}
+    90% {margin-right: 0;}
+    
 }
 
 .avatar-body {
@@ -168,6 +179,16 @@ body {
     color: #effefe;
     font-size: 35px;
     font-family: 'Ubuntu', sans-serif;
+    animation-name: loading-avatar-body;
+    animation-duration: 3s;
+}
+
+@keyframes loading-avatar-body {
+    0% {margin-left: 120%;}
+    69% {margin-left: 0; border-radius: 50% 50% 0% 0%;}
+    80% {margin-left: 0; border-radius: 40% 50% 0% 0%;}
+    90% {margin-left: 0; border-radius: 50% 40% 0% 0%;}
+    100% {margin-left: 0; border-radius: 50% 50% 0% 0%;}
 }
 
 .curly-brackets {
@@ -331,6 +352,10 @@ body {
 }
 
 .break.mob {
+    display: none;
+}
+
+.break.mid {
     display: none;
 }
 
@@ -503,25 +528,26 @@ body {
         width: 85%;
     }
 
-    .break.mob {
-        display: inline;
-    }
-
+    
     .university-logo-box {
         margin-bottom: 4%;
     }
-
+    
     .skills-header {
         margin-top: 5%;
         line-height: 120%;
     }
-
+    
     .hexagon {
         width: 85px;
     }
-
+    
     .break {
         display: none;
+    }
+    
+    .break.mob {
+        display: inline;
     }
 
     .project p {
@@ -537,11 +563,77 @@ body {
     }
 }
 
-@media only screen and (max-width: 680px) {
-    
+@media only screen and (min-width: 380px) and (max-width: 465px) {
+    .menu-icon-mobile {
+        display: block;
+        align-self: flex-end;
+        margin-right: 5%;
+    }
 
+    .menu {
+        display: none;
+    }
+
+    .bar-container {
+        flex-direction: column;
+    }
+    
+    .banner {
+        background: rgba(0, 0, 0, 0.5) url(developing.jpg) no-repeat center / cover padding-box border-box;
+    }
+
+    .hexagon {
+        width: 100px;
+    }
+
+    .break {
+        display: none;
+    }
+    
+    .break.mob {
+        display: inline;
+    }
 }
 
-@media only screen and (min-width: 680px) and (max-width: 1100px) {
+@media only screen and (min-width: 465px) and (max-width: 680px) {
     
+    .banner {
+        background: rgba(0, 0, 0, 0.5) url(developing.jpg) no-repeat center / cover padding-box border-box;
+    }
+
+    .menu-icon-mobile {
+        display: block;
+        align-self: flex-end;
+        margin-right: 5%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .bar-container {
+        flex-direction: column;
+    }
+
+    .hexagon {
+        width: 140px;
+    }
+
+    .break {
+        display: none;
+    }
+    
+    .break.mob {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 950px) {
+    .break {
+        display: none;
+    }
+    
+    .break.mid {
+        display: inline;
+    }
 }
