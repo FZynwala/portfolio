@@ -1,7 +1,6 @@
 let $menuButton = document.querySelector('.menu-button');
 let $menuMobile = document.querySelector('#menu-mobile');
 
-console.log(document);
 
 $menuButton.addEventListener('click', () => {
     if($menuMobile.className === 'menu-mobile-off') {
