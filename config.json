@@ -41,6 +41,12 @@
       "css": "up",
       "code": 59393,
       "src": "iconic"
+    },
+    {
+      "uid": "a17986e457f3d85f26c9c240dfd6a4ba",
+      "css": "mail",
+      "code": 59394,
+      "src": "mfglabs"
     }
   ]
 }
