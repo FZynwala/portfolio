@@ -124,9 +124,9 @@ body {
 /*******BANNER SECTION*******/
 
 .banner {  
-    background: rgba(0, 0, 0, 0.5) url(developing.jpg) no-repeat center / 100% auto padding-box border-box;
+    background: rgba(0, 0, 0, 0.5) url(wroclaw.jpg) no-repeat center / 100% auto padding-box border-box;
     width: 100%;
-    min-height: 400px;
+    height: 100vh;
     color: orange;
     font-size: 20px;
     display: flex;
@@ -138,7 +138,7 @@ body {
 .banner-header {
     width: 100%;
     min-height: 120px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     color: #0170ba;
@@ -195,6 +195,39 @@ body {
     color: #a333c8;
 }
 
+
+/*************************************/
+
+/*******ABOUTME***********/
+
+.aboutme {
+    background-color: #002944;
+    margin: 0;
+}
+
+.aboutme-header {
+    height: 50px;
+    background-color: #013d66;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px dotted #0199fe;
+}
+.aboutme-main {
+    width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: left;
+    line-height: 1.5;
+    padding: 1.2rem;
+    border-radius: 55px;
+}
 
 /*************************************/
 
@@ -327,6 +360,14 @@ body {
 
 .hexagon:hover {
     transform: scale(1.2) rotate(360deg);
+}
+
+.react {
+    display: none;
+}
+
+.semantic {
+    display: none;
 }
 
 .break {
@@ -535,7 +576,7 @@ body {
     }
 
     .banner {
-        background: rgba(0, 0, 0, 0.5) url(developing.jpg) no-repeat center / cover padding-box border-box;
+        background: rgba(0, 0, 0, 0.5) url(wroclaw.jpg) no-repeat -210px / cover padding-box border-box;
     }
 
     .avatar {
@@ -547,6 +588,10 @@ body {
         height: 85px;
         width: 205px;
         font-size: 25px;
+    }
+
+    .aboutme-main {
+        width: 80%;
     }
     
     .experience-container {
@@ -565,6 +610,22 @@ body {
     
     .hexagon {
         width: 85px;
+    }
+
+    .react-mob {
+        display: none;
+    }
+
+    .react {
+        display: flex;
+    }
+
+    .semantic {
+        display: flex;
+    }
+
+    .semantic-mob {
+        display: none;
     }
     
     .break {
