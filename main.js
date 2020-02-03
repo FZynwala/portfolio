@@ -14,6 +14,7 @@ $menuButton.addEventListener('click', () => {
 jQuery(function($) {
     $.scrollTo(0);
 
+    $('#link-aboutme').click(function() { $.scrollTo($('#aboutme'), 800); });
     $('#link-experience').click(function() { $.scrollTo($('#experience'), 800); });
     $('#link-skills').click(function() { $.scrollTo($('#skills'), 800); });
     $('#link-projects').click(function() { $.scrollTo($('#projects'), 800); });

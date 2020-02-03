@@ -233,50 +233,54 @@ body {
 
 /*******EXPERIENCE***********/
 
+#experience {
+   
+    background-color: #eef8ff;
+}
+
 .experience-container {
-    width: 60%;
-    min-height: 450px;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     /*border: 8px solid #29a9df;*/
     border-radius: 7px;
-    background-color: #effefe;
+    background-color: #eef8ff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    -webkit-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
+   /*-webkit-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
-    box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);*/
 }
 
 .experience-header {
-    font-family: 'Indie Flower', cursive;
-    color: #0170ba;
-    font-size: 45px;
-    font-weight: bold;
+    height: 50px;
+    background-color: #eef8ff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: #015187;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    padding: 1rem;
+    border-bottom: 2px dotted #015187;
 }
 
 .university, .coderscrew {
     width: 250px;
     min-height: 300px;
     background-color: #fafafa;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 2rem 2rem; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
-    -webkit-box-shadow: -2px -2px 15px 5px rgba(0,0,0,0.75);
+    border: 5px solid #0170ba;
+    border-radius: 15px;
+    /*-webkit-box-shadow: -2px -2px 15px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px -2px 15px 5px rgba(0,0,0,0.75);
-    box-shadow: -2px -2px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: -2px -2px 15px 5px rgba(0,0,0,0.75);*/
 }
 
 .university-logo {
@@ -287,14 +291,19 @@ body {
 .university-logo-box {
     display: flex;
     justify-content: center;
-    margin-bottom: 14%;
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
 }
 
 .university-text {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1rem;
     font-weight: 600;
 
+}
+
+.university-text:last-child {
+    margin-bottom: 1rem;
 }
 
 .coderscrew-logo {
@@ -318,37 +327,36 @@ body {
 
 /*******SKILLS SECTION*******/
 
+#skills {
+    background-color: #013d66;
+}
+
 .skills-header {
-    font-family: 'Indie Flower', cursive;
-    color: #0170ba;
-    font-size: 45px;
-    font-weight: bold;
+    height: 50px;
+    background-color: #014776;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
-    margin-top: 3%;
-}
-
-.skills-header-text {
-    text-align: center;
+    padding: 1rem;
+    border-bottom: 2px dotted #0199fe;
 }
 
 .skills-container {
-    max-width: 90vw;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
     justify-content: center;
-    background-color: #0170ba;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2%;
-    -webkit-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
+    background-color: #013d66;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    /*-webkit-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
-    box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75); 
+    box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75); */
 }
 
 .hexagon {
@@ -386,23 +394,25 @@ body {
 
 /*******PROJECTS******/
 
+#projects {
+    background-color: #ddf1ff;
+}
+
 .projects-header {
-    font-family: 'Indie Flower', cursive;
-    color: #0170ba;
-    font-size: 45px;
-    font-weight: bold;
+    height: 50px;
+    background-color: #eef8ff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: #013d66;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    padding: 1rem;
+    border-bottom: 2px dotted #0199fe;
 }
 
 .projects-container {
-    width: 80%;
-    min-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw;
     margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -411,11 +421,14 @@ body {
 }
 
 .project {
-    width: 450px;
+    width: 40%;
+    min-width: 340px;
     min-height: 450px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    margin-top: 4%;
+    line-height: 1.3;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: #fafafa;
     border-radius: 9px;
     -webkit-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
@@ -494,7 +507,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #0170ba;
+    background-color: #013d66;
     color: white;
 }
 
@@ -598,7 +611,6 @@ body {
         width: 85%;
     }
 
-    
     .university-logo-box {
         margin-bottom: 4%;
     }
@@ -606,6 +618,7 @@ body {
     .skills-header {
         margin-top: 5%;
         line-height: 120%;
+        font-size: 1.8rem;
     }
     
     .hexagon {
