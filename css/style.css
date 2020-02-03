@@ -177,7 +177,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #effefe;
-    font-size: 35px;
+    font-size: 2.1rem;
     font-family: 'Ubuntu', sans-serif;
     animation-name: loading-avatar-body;
     animation-duration: 3s;
@@ -413,11 +413,10 @@ body {
 
 .projects-container {
     width: 100vw;
-    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .project {
@@ -427,13 +426,15 @@ body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     line-height: 1.3;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0.5rem;
     background-color: #fafafa;
     border-radius: 9px;
     -webkit-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75);
     box-shadow: 3px 3px 40px 13px rgba(0,0,0,0.75); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project h3 {
@@ -444,8 +445,8 @@ body {
 }
 
 .project p {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
     text-align: center;
 }
 
@@ -457,6 +458,7 @@ body {
 
 .project-zm-chart {
     transition: all .3s ease-in-out;
+    margin: 0rem 0.4rem 0 0.4rem;
 }
 
 .project-zm-chart:hover {
@@ -467,11 +469,11 @@ body {
     transform: scale(2.3);
 }
 
-.project-button-demo {
-    width: 60%;
+.project-button-demo,
+.project-button-todolist {
+    width: 40%;
     height: 35px;
-    margin-top: 5%;
-    margin-bottom: 4%;
+    margin: 1.5rem 1rem;
     border-radius: 5px;
     border: 2px solid #0170ba;
     background-color: #0170ba;
@@ -485,13 +487,28 @@ body {
     transition: transform 0.2s ease-in-out;
 }
 
-.project-button-demo:hover {
+.project-button-demo:hover,
+.project-button-todolist:hover {
     background-color: #effefe;
     color: #0170ba;
 }
 
 .project-button-demo:active {
     transform: scale(0.9);
+    
+}
+
+.buttons .project-button-todolist {
+    width: 90%;
+}
+
+.buttons a {
+    width: 40%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -581,15 +598,8 @@ body {
         flex-direction: column;
     }
 
-    .banner-header {
-        margin-top: 15%;
-    }
-    .banner-header span {
-        display: none;
-    }
-
     .banner {
-        background: rgba(0, 0, 0, 0.5) url(wroclaw.jpg) no-repeat -210px / cover padding-box border-box;
+        background: rgba(0, 0, 0, 0.5) url(wroclaw.jpg) no-repeat -480px / cover padding-box border-box;
     }
 
     .avatar {
@@ -616,7 +626,6 @@ body {
     }
     
     .skills-header {
-        margin-top: 5%;
         line-height: 120%;
         font-size: 1.8rem;
     }
@@ -662,6 +671,7 @@ body {
     }
 }
 
+
 @media only screen and (min-width: 380px) and (max-width: 465px) {
     .menu-icon-mobile {
         display: block;
@@ -678,7 +688,7 @@ body {
     }
 
     .banner {
-        background: rgba(0, 0, 0, 0.5) url(developing.jpg) no-repeat center / cover padding-box border-box;
+        background: rgba(0, 0, 0, 0.5) url(wroclaw.jpg) no-repeat center / cover padding-box border-box;
     }
 
     .hexagon {
@@ -697,7 +707,7 @@ body {
 @media only screen and (min-width: 465px) and (max-width: 680px) {
     
     .banner {
-        background: rgba(0, 0, 0, 0.5) url(developing.jpg) no-repeat center / cover padding-box border-box;
+        background: rgba(0, 0, 0, 0.5) url(wroclaw.jpg) no-repeat center / cover padding-box border-box;
     }
 
     .menu-icon-mobile {
@@ -725,6 +735,10 @@ body {
     .break.mob {
         display: inline;
     }
+
+    .project {
+        width: 65%;
+    }
 }
 
 @media only screen and (min-width: 680px) and (max-width: 950px) {
@@ -734,5 +748,34 @@ body {
     
     .break.mid {
         display: inline;
+    }
+
+    .banner {
+        background: rgba(0, 0, 0, 0.5) url(wroclaw.jpg) no-repeat center / cover padding-box border-box;
+    }
+
+    .project {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-height: 380px) {
+    .avatar {
+        height: 108px;
+        width: 108px;
+    }
+
+    .avatar-body {
+        height: 68px;
+        width: 208px;
+        font-size: 1.5rem;
+    }
+
+    .semantic {
+        display: flex;
+    }
+
+    .semantic-mob {
+        display: none;
     }
 }

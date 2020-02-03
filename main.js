@@ -21,6 +21,7 @@ jQuery(function($) {
     $('#link-footer').click(function() { $.scrollTo($('#footer'), 800); });
     $('#arrow-up').click(function() { $.scrollTo($('body'), 800); });
 
+    $('#link-aboutme-mob').click(function() { $.scrollTo($('#aboutme'), 800); });
     $('#link-experience-mob').click(function() { $.scrollTo($('#experience'), 800); });
     $('#link-skills-mob').click(function() { $.scrollTo($('#skills'), 800); });
     $('#link-projects-mob').click(function() { $.scrollTo($('#projects'), 800); });

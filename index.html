@@ -23,7 +23,7 @@
                     <ul class="menu">
                         <li>{</li>
                         <li class="menu-item"><a id="link-aboutme" href="#">About me</a></li>
-                        <li class="menu-item"><a id="link-experience" href="#">Experience</a></li>
+                        <li class="menu-item"><a id="link-experience" href="#">Education</a></li>
                         <li class="menu-item"><a id="link-skills" href="#">Skills</a></li>
                         <li class="menu-item"><a id="link-projects" href="#">Projects</a></li>
                         <li class="menu-item"><a id="link-footer" href="#">Contact</a></li>
@@ -34,7 +34,8 @@
                     </div>
                 </div>
                 <ol class="menu-mobile-off" id="menu-mobile">
-                    <a id="link-experience-mob" href="#"><li>Experience</li></a>
+                    <a id="link-aboutme-mob" href="#"><li>About me</li></a>
+                    <a id="link-experience-mob" href="#"><li>Education</li></a>
                     <a id="link-skills-mob" href="#"><li>Skills</li></a>
                     <a id="link-projects-mob" href="#"><li>Projects</li></a>
                     <a id="link-footer-mob" href="#"><li>Contact</li></a>
@@ -71,7 +72,7 @@
             </article>
             <article id="experience">
                 <div class="experience-header">
-                    <span class="experience-header-text">Experience</span>
+                    <span class="experience-header-text">Education</span>
                 </div>
                 <div class="experience-container">
                     <div class="university">
@@ -133,8 +134,10 @@
                                 <li>hardware part: network of wireless sensors measuring temperature and humidity described <a href="https://github.com/FZynwala/zaka-monitor---sensor">here</a></li>
                             </ul>
                         </p>
-                        <img class="project-zm-chart" src="images/zm-main.svg" alt="screen from web app" />
-                        <img class="project-zm-chart" src="images/zm-chart.svg" alt="screen from web app" />
+                        <div>
+                            <img class="project-zm-chart" src="images/zm-main.svg" alt="screen from web app" />
+                            <img class="project-zm-chart" src="images/zm-chart.svg" alt="screen from web app" />
+                        </div>
                         <a href="https://fzynwala.github.io/zaka-monitor/#/" target="_blank"><button class="project-button-demo">Demo</button></a>
                     </div>
                     <div class="project">
@@ -142,9 +145,14 @@
                         <p>
                                 The app allows you to save tasks, mark them as completed / not completed, edit the content of the task and permanently delete the task.
                         </p>
-                        <img class="project-zm-chart" src="images/todo-login.svg" alt="screen from web app" />
-                        <img class="project-zm-chart" src="images/todo-main.svg" alt="screen from web app" />
-                        <a href="https://fzynwala.github.io/ToDo-List---React-App/#/" target="_blank"><button class="project-button-demo">Demo</button></a>
+                        <div>
+                            <img class="project-zm-chart" src="images/todo-login.svg" alt="screen from web app" />
+                            <img class="project-zm-chart" src="images/todo-main.svg" alt="screen from web app" />
+                        </div>
+                        <div class="buttons">
+                            <a href="https://fzynwala.github.io/ToDo-List---React-App/#/" target="_blank"><button class="project-button-todolist">Demo</button></a>
+                            <a href="https://github.com/FZynwala/ToDo-List---React-App" target="_blank"><button class="project-button-todolist">Code</button></a>
+                        </div>
                     </div>
                 </div>
             </article>
