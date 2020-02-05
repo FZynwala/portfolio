@@ -4,10 +4,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     width: 100vw;
-    background-color: gray;
-    background-color: #effefe;
-    background-image: linear-gradient(#eee 2px, transparent 0), linear-gradient(90deg, #eee 2px, transparent 0);
-    background-size: 30px 30px;
     margin: 0 !important;
     overflow-x: hidden;
 }
