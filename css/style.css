@@ -206,16 +206,15 @@ i.flag:not(.icon):before {
 }
 
 .aboutme-header {
-    height: 50px;
+    height: 60px;
     background-color: #013d66;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    margin-bottom: 1rem;
     border-bottom: 2px dotted #0199fe;
 }
 .aboutme-main {
@@ -249,10 +248,10 @@ i.flag:not(.icon):before {
 }
 
 .experience-header {
-    height: 50px;
+    height: 60px;
     background-color: #eef8ff;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #015187;
     display: flex;
     justify-content: center;
@@ -327,15 +326,15 @@ i.flag:not(.icon):before {
 }
 
 .skills-header {
-    height: 50px;
+    height: 60px;
     background-color: #014776;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     border-bottom: 2px dotted #0199fe;
 }
 
@@ -394,15 +393,15 @@ i.flag:not(.icon):before {
 }
 
 .projects-header {
-    height: 50px;
+    height: 70px;
     background-color: #eef8ff;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #013d66;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2.6rem 2rem 2rem 2rem;
+    padding: 2.6rem 1rem 2rem 1rem;
     border-bottom: 2px dotted #0199fe;
 }
 
